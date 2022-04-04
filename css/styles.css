@@ -95,7 +95,6 @@ h2.title {
     font-family: 'RobotoCondensed';
     font-size: 21px;
     line-height: 24px;
-    /* identical to box height, or 114% */
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -109,4 +108,66 @@ h2.title {
     font-size: 12px;
     line-height: 12px;
     text-align: center;
+}
+
+.waiting {
+    height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    margin: 0 15px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #4A4A4A;
 }
