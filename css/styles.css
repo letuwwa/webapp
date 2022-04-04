@@ -106,8 +106,9 @@ h2.title {
     width: 250px;
     height: 50px;
     font-size: 12px;
-    line-height: 12px;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .waiting {
@@ -149,14 +150,13 @@ h2.title {
 
 .waiting .waiting_wrapper {
     margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .waiting .waiting_wrapper .waiting_item {
     width: 339px;
-    margin: 0 15px;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .waiting .waiting_wrapper .waiting_item .waiting_img {
